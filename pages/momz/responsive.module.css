@@ -1,0 +1,116 @@
+.myContainer {
+  margin-right: 2rem;
+}
+
+.textResize {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.infoButton {
+  font-size: 2rem;
+}
+
+#myVideo {
+  background-color: #c3c3c35b;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+.line1 {
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1.7vw;
+  opacity: 85%;
+}
+.line2 {
+  opacity: 85%;
+  padding: 1rem;
+  color: white;
+  font-size: 1.7vw;
+}
+
+.buttonRow {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: center;
+}
+.buttonRowBtn {
+  width: 25vw;
+  font-size: 2vw;
+  border: 3px solid white;
+  border-radius: 20px;
+  color: white;
+  background-color: #ff318c;
+  opacity: 80%;
+  padding: 0.8vw;
+}
+.buttonRowBtn {
+  width: 25vw;
+  font-size: 2vw;
+  border: 3px solid white;
+  border-radius: 20px;
+  color: white;
+  background-color: #ff318c;
+  opacity: 65%;
+  padding: 0.8vw;
+}
+.infoPageBackgroundImage {
+  background-image: url("/images/momzInofPage.jpeg");
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.infoPageRow1 {
+  background-color: #02aeeb;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.8vw;
+  opacity: 85%;
+}
+.infoPageRow2 {
+  background-color: #ff318c;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.8vw;
+  opacity: 85%;
+}
+
+@media (max-width: 1450px) {
+  .textResize {
+    font-size: 1rem;
+  }
+  .infoButton {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 850px) {
+  .textResize {
+    font-size: 0.75rem;
+  }
+  .infoButton {
+    font-size: 0.5rem;
+  }
+  .line1 {
+    font-size: 2.7vw;
+  }
+  .line2 {
+    font-size: 2.7vw;
+  }
+  .buttonRowBtn {
+    width: 50vw;
+    font-size: 4vw;
+  }
+  .infoPageRow1 {
+    font-size: 3vw;
+  }
+  .infoPageRow2 {
+    font-size: 3vw;
+  }
+}

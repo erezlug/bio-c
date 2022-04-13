@@ -1,0 +1,51 @@
+/** Auth Types **/
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const REGISTER = "REGISTER";
+export const LOGOUT = "LOGOUT";
+export const SAVE_TOKEN = "SAVE_TOKEN";
+export const GET_PROFILE = "GET_PROFILE";
+export const GET_PROFILES = "GET_PROFILES";
+export const SUBSCRIBE_TO_UPDATES = "SUBSCRIBE_TO_UPDATES";
+/** Message Types **/
+export const CREATE_MESSAGE = "CREATE_MESSAGE";
+export const CLOSE_MESSAGE_MODAL = "CLOSE_MESSAGE_MODAL";
+export const CLOSE_MESSAGE_MODAL_ACCEPT = "CLOSE_MESSAGE_MODAL_ACCEPT";
+
+/** Language Types **/
+export const CHANGE_LANGUAGE_HEBREW = "CHANGE_LANGUAGE_HEBREW";
+export const CHANGE_LANGUAGE_ENGLISH = "CHANGE_LANGUAGE_ENGLISH";
+
+/** Recording Types **/
+export const TOGGLE_RECORDING = "TOGGLE_RECORDING";
+export const START_RECORDING = "START_RECORDING";
+export const STOP_RECORDING = "STOP_RECORDING";
+export const SEND_RECORDING = "SEND_RECORDING";
+export const GET_STREAM_INFO = "GET_STREAM_INFO";
+export const CREATE_CONTAINER = "CREATE_CONTAINER";
+export const START_RECOG = "START_RECOG";
+export const STOP_RECOG = "STOP_RECOG";
+export const RECOG_STATE = "RECOG_STATE";
+export const FAILED_UPLOAD = "FAILED_UPLOAD";
+export const SUCCESSFUL_UPLOAD = "SUCCESSFUL_UPLOAD";
+export const RESET_ATTEMPTS = "RESET_ATTEMPTS";
+export const SRV_START_VID_STOP = "SRV_START_VID_STOP";
+export const CHANGE_RECORDINGS_PERMISSIONS = "CHANGE_RECORDINGS_PERMISSIONS";
+export const SET_VISUALIZER = "SET_VISUALIZER";
+
+/** Survey Types **/
+export const SAVE_SURVEY_RESULTS = "SAVE_SURVEY_RESULTS";
+export const SAVE_NEW_SURVEY = "SAVE_NEW_SURVEY";
+export const GET_SURVEY_ID = "GET_SURVEY_ID";
+export const UPDATE_SURVEY = "UPDATE_SURVEY";
+export const SURVEY_COMPLETE = "SURVEY_COMPLETE";
+
+/** ENV Types **/
+//export const ADD_ENV = "ADD_ENV";
+
+// **Link Types **//
+export const SET_LINK_TO = "SET_LINK_TO";
+export const SET_URL_HISTORY = "SET_URL_HISTORY";
+
+//user type
+
+export const UPDATE_USER_PROFILE = "UPDATE_USER_PROFILE";
